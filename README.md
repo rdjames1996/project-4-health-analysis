@@ -34,7 +34,7 @@ There are many more questions that we can answer with this dataset. Apart from c
 * Visualizations:
 	For preliminary analysis, we plotted visualizations for each variable within the dataset vs. diabetes risk indicator utilizing Tableau.
 
-![Age Vs. Diabetes Indicator](Cristian/Diabetes Patient Count per Variable Ver.2/Age Vs. Diabetes Indicator.png)
+![Age Vs. Diabetes Indicator](Cristian/Diabetes&Patient&Count&per&Variable&Ver.2/Age&Vs.&Diabetes&Indicator.png)
 
 ## CONCLUSION
 
