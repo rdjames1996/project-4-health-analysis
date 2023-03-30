@@ -46,8 +46,7 @@ There are many more questions that we can answer with this dataset. Apart from c
 
 ![Fruit eaters Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Fruit_Intake_Vs_Diabetes_Indicator.png)
 
-![General Health Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/
-Gen_Hlth_Vs_Diabetes_Indicator.png)
+![General Health Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Gen_Hlth_Vs_Diabetes_Indicator.png)
 
 ![Having Healthcare Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Having_Healthcare_Vs_Diabetes_Indicator.png)
 
