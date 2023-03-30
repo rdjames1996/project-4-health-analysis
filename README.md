@@ -36,6 +36,47 @@ There are many more questions that we can answer with this dataset. Apart from c
 
 ![Age Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Age_Vs_Diabetes_Indicator.png)
 
+![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
+
+![Cholesteror Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Cholesteror_Vs_Diabetes_Indicator.png)
+
+![Need third leg Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Diff_Walk_Vs_Diabetes_Indicator.png)
+
+![Education Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Education_Vs_Diabetes_Indicator.png)
+
+![Fruit eaters Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Fruit_Intake_Vs_Diabetes_Indicator.png)
+
+![General Health Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/
+Gen_Hlth_Vs_Diabetes_Indicator.png)
+
+![Having Healthcare Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Having_Healthcare_Vs_Diabetes_Indicator.png)
+
+![Heart Disease or Attack history Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Heart_Disease_or_Attk_Vs_Diabetes_Indicator.png)
+
+![High Blood Pressure Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/High_BP_Vs_Diabetes_Indicator.png)
+
+![High Cholesterol Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/High_Chol_Vs_Diabetes_Indicator.png)
+
+![Heavy Alcohol Consumption Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Hvy_Alc_Consump_Vs_Diabetes_Indicator.png)
+
+![Income Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Income_Vs_Diabetes_Indicator.png)
+
+![Mental Health Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Ment_Hlth_Vs_Diabetes_Indicator.png)
+
+![No Doc bc cost Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/No_Docbc_Cost_Vs_Diabetes_Indicator.png)
+
+![Physical Activity Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Phys_Activity_Vs_Diabetes_Indicator.png)
+
+![Physical Health Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Phys_Hlth_Vs_Diabetes_Indicator.png)
+
+![Gender Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Sex_Vs_Diabetes_Indicator.png)
+
+![Smoker Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Smoker_Vs_Diabetes_Indicator.png)
+
+![Stroke Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Stroke_Vs_Diabetes_Indicator.png)
+
+![Veggies Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Vegetable_Intake_Vs_Diabetes_Indicator.png)
+
 ## CONCLUSION
 
 
