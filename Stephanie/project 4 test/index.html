@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Project 4 - Group 4</title>
+	<title>Are You At Risk For Diabetes?</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+	<link rel="stylesheet" type="text/css" href="/static/css/index.css">
 
      <style>
       .bd-placeholder-img {
@@ -28,14 +29,12 @@
       }
     </style>
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
-
 </head>
 <body>
     <form id="form1">
         <header>
             <!--Navigation Bar-->
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                 <a class="navbar-brand" href="#"><b>TEAM FOUR: HEALTH ANALYSIS</b></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,7 +45,7 @@
                         <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/data">Dataset</a>
+                        <a class="nav-link" href="/dashboard">Dataset</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/predict">Predict</a>
@@ -59,33 +58,29 @@
             </nav>
         </header>
 
-        <!--Image Carousel-->
+        <!--Indicators-->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
             </ol>
+
+        <!-- The slideshow -->
         <div class="carousel-inner">
-        <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <img src="diabetes2.jpeg" />
+            <div class="carousel-item active">
+              <img src="/static/images/dataset_carousel.png" alt="Dataset Analysis">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1><b>Easy to Use.</b></h1>
-            <p>A Simple and Easy to use Risk Assessment tool for Medical Institutions. Click on the Help Button for assistance in assessing risks based on patient vitals.</p>
-            <p><a class="btn btn-lg btn-primary" href="/data" role="button">Dataset</a></p>
+            <p><a class="btn btn-lg btn-primary" href="/dashboard.html" role="button">Read More</a></p>
           </div>
         </div>
-      </div>
+        </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-          <img src="diabetes2.jpeg" />
+          <img src="/static/images/predict_carousel.png" alt="Predictor Tool">
           <div class="container">
-          <div class="carousel-caption">
-            <h1><b>Efficient and Reliable.</b></h1>
-            <p>An efficient and a reliable tool to generate your risk assessments. Learn more about RiskAsess.</p>
-            <p><a class="btn btn-lg btn-primary" href="/predict" role="button">Try It Out</a></p>
-          </div>
+            <div class="carousel-caption text-left">
+            <p><a class="btn btn-lg btn-primary" href="/predict.html" role="button">Try It Out</a></p>
+            </div>
         </div>
       </div>
     </div>
@@ -98,28 +93,25 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
   
-    <!--Jumbotron-->
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+    <!-- Jumbotron
     <div class="container-fluid">
     <div class="row jumbotron">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead"> According to the CDC nearly 1 in 10 Americans live with the disease. With the dataset, Group Four will explore the relationships between those with type diabetes, pre-diabetes, and those without diabetes utilizing 253,680 survey responses from cleaned BRFSS 2015 + balanced dataset.</p>
+            <p class="lead"> According to the CDC nearly 1 in 10 Americans live with the disease. With the dataset, Team Four will explore the relationships between those with type diabetes, pre-diabetes, and those without diabetes utilizing 253,680 survey responses from cleaned BRFSS 2015 + balanced dataset.</p>
         </div>
     </div>
-    </div>
-    <!--Build with Ease and Logos section-->
-    <div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h1 class="display-4">Assess with ease.</h1>
-        </div>
-        <hr />
-        <div class="col-12">
-            <p class="lead">
-                Let us help predict your health.
-            </p>
-        </div>
-    </div>
+    </div> -->
 
         <!--Connect Section-->
         <div class="container-fluid padding">
@@ -129,11 +121,11 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <hr class="light">
-                        <h5>Contact Details</h5>
+                        <h5>Acknowledgements</h5>
                         <hr class="light">
-                        <p>(949) 981-6172</p>
-                        <p>contactus@teamfour.com</p>
-                        <p>Orange County/LA County</p>
+                        <p>Mark Amanfu</p>
+                        <p>Grace Lee</p>
+                        <p>Code Void</p>                    
                     </div>
                     <div class="col-md-4">
                         <hr class="light" />
@@ -143,7 +135,7 @@
                     </div>
                     <div class="col-md-4">
                         <hr class="light">
-                        <h5>Team</h5>
+                        <h5>Who We Are</h5>
                         <hr class="light" />
                         <p>Ana Gonzalez</p>
                         <p>Robert James</p>
@@ -153,9 +145,9 @@
                     </div>
                     <div class="col-12">
                         <hr class="light" />
-                        <h5>Thank You, Mark, Grace, and Code Void</h5>
-                    </div>
-                </div>
+                        <h5>Medical Advice Disclaimer</h5>
+                        <p>The information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this web site is for general information purposes only.</p>
+                      </div>
                 </div>
             </footer>
            </form>

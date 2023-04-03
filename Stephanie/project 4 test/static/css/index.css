@@ -2,7 +2,7 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #FCEBE3;
+    color: #25354C;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -13,7 +13,9 @@ nav {
 
 .navbar-brand {
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Facultad Regular', sans-serif !important;
+    font-weight: bold;
+    margin-bottom: 1px;
 }
 
 .carousel {
@@ -21,16 +23,16 @@ nav {
 }
 
 .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
+    bottom: 1rem;
+    z-index: auto;
 }
 
 .carousel-item {
-    height: 200px;
+    height: 500px;
 }
 
     .carousel-item > img {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         min-width: 100%;
@@ -41,27 +43,19 @@ nav {
     padding-bottom: 2rem;
 }
 
-.welcome {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
-}
-
-    .welcome hr {
-        border-top: 1px solid #ffff;
-        width: 95%;
-        margin-top: 0.3rem;
-        margin-bottom: 1rem;
-    }
-
 .jumbotron{
     padding:1rem;
     border-radius:0;
+    width: 1100;
+    color: #25354C;
+    font-size: 20px;
+    background-color: #FCEBE3;
 }
 
 footer {
-    background-color: #FCEBE3;
-    color: #d5d5d5;
+    background-color: #25354C;
+    color: #FCEBE3;
+    width: 1100;
     padding-top: 2rem;
 }
 
@@ -70,39 +64,6 @@ hr.light {
     width: 75%;
     margin-top: 0.8rem;
     margin-bottom: 1rem;
-}
-
-footer a {
-    color: #d5d5d5;
-}
-
-@media(max-width:992px){
-    .social a{
-        font-size: 4em;
-        padding: 2rem;
-    }
-}
-
-@media(max-width:768px)
-{
-    .social a{
-        font-size: 2.5em;
-        padding: 1.2rem;
-    }
-}
-
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.marketing h2 {
-    font-weight: 400;
-}
-
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
 }
 
 .featurette-divider {
