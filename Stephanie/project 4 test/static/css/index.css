@@ -23,7 +23,7 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #FCEBE3;
+  background-color: #FFFFFF;
 }
 
 .active {
@@ -40,7 +40,7 @@ body {
 }
 
 .carousel-item {
-    height: 750px;
+    height: 800px;
 }
     .carousel-item > img {
         width: 100%;
@@ -55,9 +55,9 @@ body {
     padding:4rem;
     border-radius:0;
     width: 1100;
-    color: #25354C;
+    color: #FCEBE3;
     font-size: 20px;
-    background-color: #FCEBE3;
+    background-color: #25354C;
 }
 
 footer {
