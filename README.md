@@ -16,19 +16,19 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 ## METHODS
 
 * DATA:
-	-There are different versions of the same dataset
-		-diabetes_012_health_indicators_BRFSS2015.csv
-			-Diabetes Indicators are seperated into: No diabetes, Pre-Diabetes, Diabetes
-		-diabetes_binary_health_indicators_BRFSS2015.csv
-			-Diabetes Indicators are seperated into: No diabetes, Diabetes
-		-diabetes_binary_5050split_health_indicators_BRFSS2015.csv
-			-Diabetes Indicators are seperated into: No diabetes, Diabetes
-			-Selected Data in order to have a 50/50 split of No diabetes, Diabetes
-	-For this is a Risk Predictor, we used the lumped Pre-Diabetes and Diabetes Dataset. After a couple trials with the regular Dataset, we learned 		the 50/50 split Dataset will serve us better in creating a more efficient model.
-	-The data is from the BRFSS survey conducted in 2015.
+	* There are different versions of the same dataset
+		* diabetes_012_health_indicators_BRFSS2015.csv
+			* Diabetes Indicators are seperated into: No diabetes, Pre-Diabetes, Diabetes
+		* diabetes_binary_health_indicators_BRFSS2015.csv
+			* Diabetes Indicators are seperated into: No diabetes, Diabetes
+		* diabetes_binary_5050split_health_indicators_BRFSS2015.csv
+			* Diabetes Indicators are seperated into: No diabetes, Diabetes
+			* Selected Data in order to have a 50/50 split of No diabetes, Diabetes
+	* For this is a Risk Predictor, we used the lumped Pre-Diabetes and Diabetes Dataset. After a couple trials with the regular Dataset, we learned 		the 50/50 split Dataset will serve us better in creating a more efficient model.
+	* The data is from the BRFSS survey conducted in 2015.
 	
-	-For preliminary analysis, we plotted visualizations for each variable within the dataset vs. diabetes risk indicator utilizing Tableau.
-		-The following is just one of 21 Visualization plotted on Tableau.
+	* For preliminary analysis, we plotted visualizations for each variable within the dataset vs. diabetes risk indicator utilizing Tableau.
+		* The following is just one of 21 Visualization plotted on Tableau.
 
 ![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
 
