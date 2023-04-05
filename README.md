@@ -32,24 +32,24 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 
 ![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
 
-	-We dropped columns that we found to be too subjective to the important data.
-		-Those columns are:
-			-GENHLTH: Subjective because it asked the participant to rate how their general health was on a scale of 1-5. Not scientific
-			-MENTHLTH: Subjective because it asked for participant’s opinion of their mental health. Not scientific.
-			-PHYSHLTH: Same as above. Not scientific.
-			-DiffWalk: difficulty walking or climbing stairs. We decided this feature could possibly skew our modeling too much.
-			-CHOLCheck: Has a participant received a cholesterol check in the last 5 years? Same as above
+	* We dropped columns that we found to be too subjective to the important data.
+		* Those columns are:
+			* GENHLTH: Subjective because it asked the participant to rate how their general health was on a scale of 1-5. Not scientific
+			* MENTHLTH: Subjective because it asked for participant’s opinion of their mental health. Not scientific.
+			* PHYSHLTH: Same as above. Not scientific.
+			* DiffWalk: difficulty walking or climbing stairs. We decided this feature could possibly skew our modeling too much.
+			* CHOLCheck: Has a participant received a cholesterol check in the last 5 years? Same as above
 		
 * Machine Learning Modeling:
-	-Initial Testing for all models:
-		-We first decided to break up the dataset into 4 major categories:
-			-Consumption: Veggies, Heavy Alcohol Consumption, Smoker, Fruits
-			-Demographic: Age, Income, Education, Sex
-			-General health: BMI, Physical Activity
-			-Pre-existing conditions: HighBP, Heart Disease History or Attack, HighChol, Stroke
-	-KMEANS:
-		-StandardScaler, PCA, LogisticRegression Model, Desicion Tree Model, Deep Learning ML Model
-		-RESULTS of each major categories:
+	* Initial Testing for all models:
+		* We first decided to break up the dataset into 4 major categories:
+			* Consumption: Veggies, Heavy Alcohol Consumption, Smoker, Fruits
+			* Demographic: Age, Income, Education, Sex
+			* General health: BMI, Physical Activity
+			* Pre-existing conditions: HighBP, Heart Disease History or Attack, HighChol, Stroke
+	* KMEANS:
+		* StandardScaler, PCA, LogisticRegression Model, Desicion Tree Model, Deep Learning ML Model
+		* RESULTS of each major categories:
 			
 			-Consumption:
 				-StandardScaler, PCA, Desicion Tree Model
@@ -69,9 +69,9 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 				-LogisticRegression Model
 					-Accuracy Score 69.3%
 	
-	-XGBOOST:
-		-XGBOOST XGBClassifier Modeling	
-		-RESULTS of each major categories:
+	* XGBOOST:
+		* XGBOOST XGBClassifier Modeling	
+		* RESULTS of each major categories:
 			
 			-Consumption:
 				-Accuracy Score 58.3%
@@ -106,7 +106,7 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 				-HighBP F-Score: 110
 				-Veggies F-Score: 57
 		
-		-FINAL RESULT (with all features minus subjective columns):
+		* FINAL RESULT (with all features minus subjective columns):
 			-Accuracy Score 81.1%
 			-Feature Importance:
 
@@ -114,13 +114,13 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 * XGBOOST Modeling, with all features minus subjective columns, gave an Accuracy score of entire Binary Dataset: 81.1%
 
 * Webpage:
-	-We created a webpage with Dashboard including Diabetes Risk Predictor.
-		-Pages:
-			-Home: Introduction with Categorized Features Result and Overall.
-			-Data: 
-			-Predict: Model Function
-			-GitHub: Link to our builds and images
-	-Visitor takes a quick survey, then we output if one is at risk or not.
+	* We created a webpage with Dashboard including Diabetes Risk Predictor.
+		* Pages:
+			* Home: Introduction with Categorized Features Result and Overall.
+			* Data: 
+			* Predict: Model Function
+			* GitHub: Link to our builds and images
+	* Visitor takes a quick survey, then we output if one is at risk or not.
 	
 ![ScreenShot1](/Webpage/Screenshot1.png)
 ![ScreenShot2](/Webpage/Screenshot2.png)
