@@ -26,20 +26,17 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 			* Selected Data in order to have a 50/50 split of No diabetes, Diabetes
 	* For this is a Risk Predictor, we used the lumped Pre-Diabetes and Diabetes Dataset. After a couple trials with the regular Dataset, we learned 		the 50/50 split Dataset will serve us better in creating a more efficient model.
 	* The data is from the BRFSS survey conducted in 2015.
-	
-	* For preliminary analysis, we plotted visualizations for each variable within the dataset vs. diabetes risk indicator utilizing Tableau.
-		* The following is just one of 21 Visualization plotted on Tableau.
-
-![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
-
-
 	* We dropped columns that we found to be too subjective to the important data.
 		* Those columns are:
 			* GENHLTH: Subjective because it asked the participant to rate how their general health was on a scale of 1-5. Not scientific
 			* MENTHLTH: Subjective because it asked for participant’s opinion of their mental health. Not scientific.
 			* PHYSHLTH: Same as above. Not scientific.
 			* DiffWalk: difficulty walking or climbing stairs. We decided this feature could possibly skew our modeling too much.
-			* CHOLCheck: Has a participant received a cholesterol check in the last 5 years? Same as above
+			* CHOLCheck: Has a participant received a cholesterol check in the last 5 years? Same as above	
+	* For preliminary analysis, we plotted visualizations for each variable within the dataset vs. diabetes risk indicator utilizing Tableau.
+		* The following is just one of 21 Visualization plotted on Tableau.
+
+![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
 		
 * Machine Learning Modeling:
 	* Initial Testing for all models:
