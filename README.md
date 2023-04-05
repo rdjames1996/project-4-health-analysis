@@ -32,6 +32,7 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 
 ![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
 
+
 	* We dropped columns that we found to be too subjective to the important data.
 		* Those columns are:
 			* GENHLTH: Subjective because it asked the participant to rate how their general health was on a scale of 1-5. Not scientific
@@ -51,24 +52,23 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 		* StandardScaler, PCA, LogisticRegression Model, Desicion Tree Model, Deep Learning ML Model
 		* RESULTS of each major categories:
 			
+			* Consumption:
+				* StandardScaler, PCA, Desicion Tree Model
+					* Accuracy Score 56.9%
+				* StandardScaler, PCA, Deep Learning ML Model
+					* Accuracy Score 56.3%
 			
-			-Consumption:
-				-StandardScaler, PCA, Desicion Tree Model
-					-Accuracy Score 56.9%
-				-StandardScaler, PCA, Deep Learning ML Model
-					-Accuracy Score 56.3%
+			* Demographic:
+				* LogisticRegression Model
+					* Accuracy Score 64.2%
 			
-			-Demographic:
-				-LogisticRegression Model
-					-Accuracy Score 64.2%
+			* General health:
+				* StandardScaler, LogisticRegression Model
+					* Accuracy Score 64.5%
 			
-			-General health:
-				-StandardScaler, LogisticRegression Model
-					-Accuracy Score 64.5%
-			
-			-Pre-existing conditions:
-				-LogisticRegression Model
-					-Accuracy Score 69.3%
+			* Pre-existing conditions:
+				* LogisticRegression Model
+					* Accuracy Score 69.3%
 	
 	
 	* XGBOOST:
@@ -76,38 +76,38 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 		* RESULTS of each major categories:
 			
 			
-			-Consumption:
-				-Accuracy Score 58.3%
-				-Veggies F-Score: 101
-				-HvyAlcoholConsumption F-Score: 83
-				-Smoker F-Score: 81
-				-Fruits F-Score: 66
+			* Consumption:
+				* Accuracy Score 58.3%
+				* Veggies F-Score: 101
+				* HvyAlcoholConsumption F-Score: 83
+				* Smoker F-Score: 81
+				* Fruits F-Score: 66
 			
-			-Demographic:
-				-Accuracy Score 70.8%
-				-Age F-Score: 361
-				-Income F-Score: 259
-				-Education F-Score: 173
-				-Sex F-Score: 110
+			* Demographic:
+				* Accuracy Score 70.8%
+				* Age F-Score: 361
+				* Income F-Score: 259
+				* Education F-Score: 173
+				* Sex F-Score: 110
 			
-			-General health:
-				-Accuracy Score 69.8%
-				-BMI F-Score: 717
-				-PhysActivity: F-Score 47
+			* General health:
+				* Accuracy Score 69.8%
+				* BMI F-Score: 717
+				* PhysActivity: F-Score 47
 			
-			-Pre-existing conditions:
-				-Accuracy Score 74.8%
-				-HighBP F-Score: 53
-				-HeartDiseaseorAttack F-Score: 45
-				-HighChol F-Score: 41
-				-Stroke F-Score: 30
+			* Pre-existing conditions:
+				* Accuracy Score 74.8%
+				* HighBP F-Score: 53
+				* HeartDiseaseorAttack F-Score: 45
+				* HighChol F-Score: 41
+				* Stroke F-Score: 30
 			
-			-We combined the top feature from each of the four categories:
-				-Accuracy Score 78.1%
-				-BMI F-Score: 415
-				-Age F-Score: 372
-				-HighBP F-Score: 110
-				-Veggies F-Score: 57
+			* We combined the top feature from each of the four categories:
+				* Accuracy Score 78.1%
+				* BMI F-Score: 415
+				* Age F-Score: 372
+				* HighBP F-Score: 110
+				* Veggies F-Score: 57
 		
 		* FINAL RESULT (with all features minus subjective columns):
 			* Accuracy Score 81.1%
