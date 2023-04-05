@@ -51,6 +51,7 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 		* StandardScaler, PCA, LogisticRegression Model, Desicion Tree Model, Deep Learning ML Model
 		* RESULTS of each major categories:
 			
+			
 			-Consumption:
 				-StandardScaler, PCA, Desicion Tree Model
 					-Accuracy Score 56.9%
@@ -69,9 +70,11 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 				-LogisticRegression Model
 					-Accuracy Score 69.3%
 	
+	
 	* XGBOOST:
 		* XGBOOST XGBClassifier Modeling	
 		* RESULTS of each major categories:
+			
 			
 			-Consumption:
 				-Accuracy Score 58.3%
@@ -107,8 +110,8 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 				-Veggies F-Score: 57
 		
 		* FINAL RESULT (with all features minus subjective columns):
-			-Accuracy Score 81.1%
-			-Feature Importance:
+			* Accuracy Score 81.1%
+			* Feature Importance:
 
 ## RESULTS
 * XGBOOST Modeling, with all features minus subjective columns, gave an Accuracy score of entire Binary Dataset: 81.1%
