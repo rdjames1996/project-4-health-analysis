@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Make it compatible to mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Diabetes Risk Prediction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/Stephanie/project 4 test/static/css/style.css"> <!-- {{ url_for('static',filename='css/style.css') }} -->
+</head>
+
+<body class="result-body">
+    <main class="result-main">   
+    {% if result == "Positive": %}
+        <p class="danger">You have high risk of diabetes. See a doctor immediately!</p>
+        <p class="resources">Check out these resources to learn more about diabetes</p>
+        <ul>
+            <li><a href="https://www.heart.org/en/health-topics/diabetes/understand-your-risk-for-diabetes">Diabetes Risk Factors</a></li>
+            <li><a href="https://www.mayoclinic.org/diseases-conditions/diabetes/in-depth/diabetes-management/art-20047963">Diabetes Management</a></li>
+            <li><a href="https://www.webmd.com/diabetes/diabetes-lifestyle-tips">6 Lifestyle Changes to Control Your Diabetes</a></li>
+        </ul>
+    {% elif result == "Negative" %}
+        <p class="out-of-danger">You have no risk of diabetes. Keep up the healthy habits!</p>
+        <p class="resources">These resources might help you keep the diabetes away</p>
+        <ul>
+            <li><a href="https://www.heart.org/en/health-topics/diabetes/understand-your-risk-for-diabetes">Diabetes Risk Factors</a></li>
+            <li><a href="https://www.healthline.com/nutrition/prevent-diabetes">11 Ways to Prevent Type 2 Diabetes</a></li>
+        </ul>
+    {% endif %}
+    </main>
+
+
+</body>
+</html>
