@@ -99,6 +99,7 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 		* The following is just one of 21 Visualization plotted on Tableau.
 
 ![BMI Vs. Diabetes Indicator](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
+![Visualizations](/Cristian/Diabetes_Patient_Count_per_Variable_Ver2)
 		
 * Machine Learning Modeling:
 	* Initial Testing for all models:
@@ -177,9 +178,10 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 
 * Webpage:
 	* We created a webpage with Dashboard including Diabetes Risk Predictor.
+	* Code Void was used as a starting template in compiling our site. 
 		* Pages:
-			* Home: Introduction with Categorized Features Result and Overall.
-			* Data: 
+			* Home: Introduction
+			* Data: Categorized Features Result and Overall
 			* Predict: Model Function
 			* GitHub: Link to our builds and images
 	* Visitor takes a quick survey, then we output if one is at risk or not.
@@ -203,3 +205,7 @@ https://www.cdc.gov/brfss/annual_data/2015/pdf/codebook15_llcp.pdf
 https://www.cdc.gov/pcd/issues/2019/19_0109.htm
 
 https://www.cdc.gov/diabetes/basics/type2.html
+
+https://github.com/abhayshah0305/RiskAssess
+
+https://www.youtube.com/channel/UCDc-rP4-TZXdhqZ9RQiaaaw
