@@ -1,0 +1,105 @@
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #25354C;
+    font-family: 'ivypresto-display', Sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #FCEBE3;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 14px;
+  color: #25354C;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #FFFFFF;
+}
+
+.active {
+  background-color: #FCEBE3;
+}
+
+.carousel {
+    margin-bottom: 0;
+}
+
+.carousel-caption {
+    bottom: 0.5rem;
+    z-index: auto;
+}
+
+.carousel-item {
+    height: 800px;
+}
+    .carousel-item > img {
+        width: 100%;
+        height: rem;
+    }
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.jumbotron{
+    padding:4rem;
+    border-radius:0;
+    width: 1100;
+    color: #FCEBE3;
+    font-size: 20px;
+    background-color: #25354C;
+}
+
+footer {
+    background-color: #25354C;
+    color: #FCEBE3;
+    width: 1100;
+    padding-top: 2rem;
+
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
