@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Team Four - We Are Here For You.</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+	<link rel="stylesheet" type="text/css" href= '/project-4-health-analysis/static/css/index.css'>
+
+     <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+</head>
+<body>
+    <form id="form1">
+        <header>
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+              <a class="navbar-brand" href="#"><b></b></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href= {{ url_for('index') }} >Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href= {{ url_for('dashboard') }} >Data</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href= {{ url_for('predict') }} >Predict</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://github.com/rdjames1996/project-4-health-analysis">GitHub</a>
+                  </li>
+                  </ul>
+              </div>
+          </nav>
+      </header>
+
+         <main role="main">
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Hello! Lets Talk About Risk Factors</h1>
+      <p>According to the Diabetes Research Institute, 37.3 million people, or 11.3% of the U.S. population, have diabetes. An estimated 28.7 million people – or 28.5% of the population – had diagnosed diabetes. Approximately 8.5 million people have diabetes but have not yet been diagnosed (2022). (diabetesresearch.org) During 2014-2015, the estimated annual number of newly diagnosed cases of type 1 diabetes in the U.S. included 18,291 children and adolescents younger than age 20. Compared to adults aged 18 to 44 years, incidence rates of diagnosed diabetes were higher among adults aged 45 to 64 years and those aged 65 years and older. (diabetesreasearch.org).</p>
+      <p>Team Four decided to explore diabetes to determine which factors are the most likely to predict whether or not an individual has diabetes or not.</p>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>1. Demographic Accuracy: 70%</h2> 
+        <img src="/project-4-health-analysis/static/images/output.png" width="484" height="326">
+      </div>
+      <div class="col">
+        <h2>2. Pre-Existing Conditions Accuracy: 74.8%</h2>
+        <img src="/project-4-health-analysis/static/images/output2.png" width="484" height="326">
+      </div>
+  <br>
+      <div class="col">
+        <h2>3. Consumption Accuracy: 58.3%</h2>
+        <img src="/project-4-health-analysis/static/images/output3.png" width="484" height="326">
+      </div>
+
+      <div class="col">
+        <h2>4. Physical Health Accuracy: 69.8%</h2>
+        <img src="/project-4-health-analysis/static/images/output4.png" width="484" height="326">
+      </div>
+  <br>
+      <div class="col">
+        <h2>5. Top 4 Accuracy: 78.1%</h2>
+        <img src="/project-4-health-analysis/static/images/output5.png" width="484" height="326">
+      </div>
+
+      <div class="col">
+        <h2>6. Features Summary: 81.1%</h2>
+        <img src="/project-4-health-analysis/static/images/output6.png" width="484" height="326">
+      </div>
+
+    </div>
+    </div>
+    <hr>
+  </div>
+</main>
+
+<footer>
+  <div class="container-fluid padding">
+  <div class="row text-center">
+      <div class="col-md-4">
+          <hr class="light">
+          <h5>Acknowledgements</h5>
+          <hr class="light">
+          <p>Mark Amanfu</p>
+          <p>Grace Lee</p>
+          <p>Code Void</p>                    
+      </div>
+      <div class="col-md-4">
+          <hr class="light" />
+          <h5>Project 4</h5>
+          <hr class="light" />
+          <p>Machine Learning</p>
+      </div>
+      <div class="col-md-4">
+          <hr class="light">
+          <h5>Who We Are</h5>
+          <hr class="light" />
+          <p>Ana Gonzalez</p>
+          <p>Robert James</p>
+          <p>Cristian Jung</p>
+          <p>Kelly Stave</p>
+          <p>Stephanie Tran</p>
+      </div>
+      <div class="col-12">
+          <hr class="light" />
+          <h5>Medical Advice Disclaimer</h5>
+          <p>The information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this web site is for general information purposes only.</p>
+        </div>
+  </div>
+</footer>
+
+
