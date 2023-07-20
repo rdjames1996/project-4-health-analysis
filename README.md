@@ -99,7 +99,7 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 		* The following are some of the visualizations plotted on Tableau.
 
 ![BMI Vs. Diabetes Indicator](Individual_Folders/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
-![diabetespatientcountpervariable](Individual_Folders/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Diabetes Patient Count per Variable.png)
+![diabetespatientcountpervariable](Individual_Folders/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Diabetes_Patient_Count_per_Variable.png)
 		
 * Machine Learning Modeling:
 	* Initial Testing for all models:
