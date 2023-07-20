@@ -96,10 +96,10 @@ For Project 4, our group will be exploring diabetes in adults 18 and older withi
 			* 8 $75,000 or more
 
 	* For preliminary analysis, we plotted visualizations for each variable within the dataset vs. diabetes risk indicator utilizing Tableau.
-		* The following is just one of 21 Visualization plotted on Tableau.
+		* The following are some of the visualizations plotted on Tableau.
 
 ![BMI Vs. Diabetes Indicator](Individual_Folders/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/BMI_Vs_Diabetes_Indicator.png)
-![Other Visualizations]()
+![diabetespatientcountpervariable](Individual_Folders/Cristian/Diabetes_Patient_Count_per_Variable_Ver2/Diabetes Patient Count per Variable.png)
 		
 * Machine Learning Modeling:
 	* Initial Testing for all models:
